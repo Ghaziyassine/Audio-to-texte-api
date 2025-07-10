@@ -77,12 +77,6 @@ uvicorn app:app --reload
 }
 ```
 
-## API Documentation
-
-Once the server is running, you can access the automatically generated API documentation:
-
-- Swagger UI: `http://127.0.0.1:8000/docs`
-- ReDoc: `http://127.0.0.1:8000/redoc`
 
 ## Example
 
