@@ -25,8 +25,8 @@ This API provides a simple endpoint to transcribe audio content that's sent as b
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone (https://github.com/Ghaziyassine/Audio-to-texte-api.git
+cd Audio-to-texte-api
 ```
 
 2. Create a virtual environment:
