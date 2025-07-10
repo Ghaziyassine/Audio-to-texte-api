@@ -5,6 +5,7 @@ import base64
 import tempfile
 
 app = FastAPI()
+# model = WhisperModel("base", device="cuda", compute_type="float16")
 model = WhisperModel("base", device="cpu", compute_type="float32")
 
 class AudioPayload(BaseModel):
