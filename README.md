@@ -114,10 +114,4 @@ print(response.json())
 - The API uses the CPU for processing. If you have a compatible NVIDIA GPU with updated drivers, you can modify the code to use CUDA for faster processing.
 - Transcription time depends on the audio length and the hardware capabilities.
 
-## License
 
-[Specify your license information here]
-
-## Contact
-
-[Your contact information]
