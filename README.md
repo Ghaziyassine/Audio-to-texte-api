@@ -25,8 +25,8 @@ This API provides a simple endpoint to transcribe audio content that's sent as b
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Ghaziyassine/Audio-to-texte-api.git
-cd Audio-to-texte-api
+git clone <repository-url>
+cd <repository-directory>
 ```
 
 2. Create a virtual environment:
@@ -77,6 +77,12 @@ uvicorn app:app --reload
 }
 ```
 
+## API Documentation
+
+Once the server is running, you can access the automatically generated API documentation:
+
+- Swagger UI: `http://127.0.0.1:8000/docs`
+- ReDoc: `http://127.0.0.1:8000/redoc`
 
 ## Example
 
@@ -114,4 +120,10 @@ print(response.json())
 - The API uses the CPU for processing. If you have a compatible NVIDIA GPU with updated drivers, you can modify the code to use CUDA for faster processing.
 - Transcription time depends on the audio length and the hardware capabilities.
 
+## License
 
+[Specify your license information here]
+
+## Contact
+
+[Your contact information]
